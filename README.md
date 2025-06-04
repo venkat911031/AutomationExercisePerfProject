@@ -1,7 +1,9 @@
 🚀 JMeter Performance Testing Project : https://automationexercise.com/
 
 📋 Project Overview
+
 This repository contains a comprehensive performance testing suite for an e-commerce web application built using Apache JMeter. The project simulates real user behavior through complete customer journeys from registration to checkout, providing detailed performance insights and bottleneck identification.
+
 🎯 Test Scenarios Covered
 🔐 User Authentication & Registration
 
@@ -13,10 +15,15 @@ Get Account Created Page - Post-registration confirmation
 🛒 E-commerce User Journey
 
 User Registration Flow - End-to-end signup process
+
 Browse All Products - Product catalog performance
+
 View Product Details - Individual product page loads
+
 AddingProductToCart - Shopping cart functionality
+
 View Cart - Cart page performance
+
 Proceed to Checkout - Checkout initiation
 
 💳 Payment & Transaction Processing
