@@ -79,15 +79,10 @@ Installation Steps
 bash# 1. Install Java (if not already installed)
 java -version
 
-# 2. Download and extract JMeter
-wget https://jmeter.apache.org/download_jmeter.cgi
-
-# 3. Set JAVA_HOME environment variable
-export JAVA_HOME=/path/to/your/java
-
 # 4. Clone this repository
 git clone https://github.com/yourusername/jmeter-performance-testing.git
 cd jmeter-performance-testing
+
 🚀 How to Run Tests
 🖥️ GUI Mode (Development & Debugging)
 bash# Open JMeter GUI with test plan
@@ -97,13 +92,7 @@ bash# Run test and generate HTML report
 jmeter -n -t test-plans/user-registration-flow.jmx \
        -l results/test-results-$(date +%Y%m%d-%H%M%S).jtl \
        -e -o reports/html-dashboard-$(date +%Y%m%d-%H%M%S)/
-🎛️ Advanced Configuration
-bash# Custom thread configuration
-jmeter -n -t test-plans/user-registration-flow.jmx \
-       -Jusers=100 \
-       -Jrampup=300 \
-       -Jduration=600 \
-       -l results/load-test.jtl
+
 ⚙️ Test Configuration Details
 👥 Load Configuration
 propertiesThread Group Settings:
