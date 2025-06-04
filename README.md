@@ -49,7 +49,16 @@ jmeter-performance-testing/
 📈 Throughput: 13.5 requests/second
 
 📈 Detailed Performance Metrics
-Test ScenarioSamplesAvg (ms)Min (ms)Max (ms)Error %Throughput/sec🚀 Launch Login Page501,1014411,3530.00%1.0✉️ Submit Name and Email503572777190.00%1.0📝 Full Signup Page508706511,3900.00%1.0👤 User Registration Flow502,6651,8383,2910.00%58.3/min🛍️ Browse All Products504012926840.00%1.0🔍 View Product Details503923069160.00%1.0🛒 Adding Product to Cart503662806260.00%1.0👀 View Cart503602935920.00%1.0💳 Proceed to Checkout503882898270.00%1.0💰 Payment Processing501,7141,5752,1220.00%1.0
+Test ScenarioSamplesAvg (ms)Min (ms)Max (ms)Error %Throughput/sec🚀 Launch Login Page501,1014411,3530.00%1.0
+✉️ Submit Name and Email503572777190.00%1.0
+📝 Full Signup Page508706511,3900.00%1.0
+👤 User Registration Flow502,6651,8383,2910.00%58.3/min
+🛍️ Browse All Products504012926840.00%1.0
+🔍 View Product Details503923069160.00%1.0
+🛒 Adding Product to Cart503662806260.00%1.0
+👀 View Cart503602935920.00%1.0
+💳 Proceed to Checkout503882898270.00%1.0
+💰 Payment Processing501,7141,5752,1220.00%1.0
 🎯 Key Performance Insights
 ⚡ Fastest Operations
 
