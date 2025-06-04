@@ -39,7 +39,9 @@ jmeter-performance-testing/
 │   ├── summary-report.csv                  # Performance summary
 │   └── 📂 screenshots/                     # Test execution screenshots
 └── 📋 README.md                            # Project documentation
+
 📊 Test Results Summary
+
 🏆 Performance Highlights
 
 ✅ 100% Success Rate - Zero failures across all requests
