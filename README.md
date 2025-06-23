@@ -14,11 +14,15 @@ If you're someone trying to learn JMeter practically, this project can serve as 
 This repository contains a comprehensive performance testing suite for an e-commerce web application built using Apache JMeter. The project simulates real user behavior through complete customer journeys from registration to checkout, providing detailed performance insights and bottleneck identification.
 
 🎯 Test Scenarios Covered
+
 🔐 User Authentication & Registration
 
 Launch Login Page - Initial page load performance
+
 Submit Name and Email - Form submission validation
+
 Full Signup Page - Complete registration process
+
 Get Account Created Page - Post-registration confirmation
 
 🛒 E-commerce User Journey
@@ -38,12 +42,15 @@ Proceed to Checkout - Checkout initiation
 💳 Payment & Transaction Processing
 
 GetPaymentPage - Payment form loading
+
 PostPaymentPage - Payment processing simulation
+
 Post Signup Journey - Complete user flow validation
 
 🔄 Session Management
 
 Debug Sampler - Request/response validation
+
 LogOut - Session termination testing
 
 📁 Project Structure
@@ -71,6 +78,7 @@ jmeter-performance-testing/
 📈 Throughput: 13.5 requests/second
 
 📈 Detailed Performance Metrics
+
 Test ScenarioSamplesAvg (ms)Min (ms)Max (ms)Error %Throughput/sec🚀 Launch Login Page501,1014411,3530.00%1.0
 
 ✉️ Submit Name and Email503572777190.00%1.0
@@ -102,27 +110,41 @@ GetPaymentPage - 350ms average
 🐌 Performance Bottlenecks
 
 User Registration Flow - 2,665ms (⚠️ Needs optimization)
+
 PostPaymentPage - 1,714ms (Acceptable for financial operations)
+
 Launch Login Page - 1,101ms (Room for improvement)
 
 📊 Response Time Distribution
 
 90th Percentile: 2,645ms
+
 95th Percentile: 4,755ms
+
 99th Percentile: 4,969ms
 
 🛠️ Prerequisites & Setup
+
 System Requirements
+
 bash☑️ Apache JMeter 5.0 or higher
+
 ☑️ Java JDK 8 or higher
+
 ☑️ 4GB+ RAM (recommended)
+
 ☑️ Web browser for HTML reports
+
 Installation Steps
+
 bash# 1. Install Java (if not already installed)
+
 java -version
 
 # 4. Clone this repository
+
 git clone https://github.com/yourusername/jmeter-performance-testing.git
+
 cd jmeter-performance-testing
 
 🚀 How to Run Tests
