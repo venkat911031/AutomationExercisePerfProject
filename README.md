@@ -1,6 +1,7 @@
 🚀 JMeter Performance Testing Project : https://automationexercise.com/
 
-🤖 Built With AI
+**🤖 Built With AI**
+
 This project was developed entirely with step-by-step guidance from ChatGPT (OpenAI).
 Every part of the test — from identifying the test flow, setting up HTTP samplers, configuring parameters, handling sessions, to validating responses — was collaboratively built using real-time interaction with the AI model.
 
