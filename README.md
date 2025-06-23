@@ -1,5 +1,8 @@
 🚀 JMeter Performance Testing Project : https://automationexercise.com/
 
+🤖 Built With AI
+This project was built with step-by-step guidance from ChatGPT. Every sampler, parameter, and assertion was iteratively crafted, debugged, and validated using real-time feedback from the AI model.
+
 📋 Project Overview
 
 This repository contains a comprehensive performance testing suite for an e-commerce web application built using Apache JMeter. The project simulates real user behavior through complete customer journeys from registration to checkout, providing detailed performance insights and bottleneck identification.
